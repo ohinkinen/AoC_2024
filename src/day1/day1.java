@@ -83,7 +83,6 @@ public class day1 {
             System.out.println("Answer to part 2: " + similarityScore);
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred while reading the file");
-            e.printStackTrace();
         }
     }
 }
